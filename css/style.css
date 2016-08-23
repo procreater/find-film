@@ -20,3 +20,4 @@ h2, h3, h4, h5, h6 {font-family: "jura", sans-serif; font-weight: bold}
 .select-wrapper input.select-dropdown {font-size: 16px!important}
 [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {border-color: #f36a4a!important; background-color: #f36a4a!important;}
 .dropdown-content li>a, .dropdown-content li>span {color:#f36a4a!important}
+a:hover {text-decoration: none; color:white;}
