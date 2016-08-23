@@ -1,0 +1,22 @@
+.box {display: flex; justify-content: center; align-items: center;}
+.box div{flex:1;}
+.tur .box div{flex:1; margin-top: 15px}
+label {font-size: 16px!important; line-height: 20px!important; color:#000!important}
+[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {line-height: 25px!important; }
+.blok {min-height: 455px; border: 5px solid #f36a4a}
+.bar {border: 5px solid #f36a4a; width: 99%; margin: auto; font-family: "jura", sans-serif; font-weight: bold; font-size: 20px}
+input[type="checkbox"].filled-in:checked + label:after{
+     border: 2px solid #f36a4a;
+     background-color: #f36a4a;
+}
+nav {background-color: #f36a4a!important} body {background-color: #95b8b2}
+.btn-large {background-color: #f36a4a!important}
+h1 {
+    font-family: 'Jura', sans-serif;
+	font-weight:bolder;
+    font-size: 28px
+}
+h2, h3, h4, h5, h6 {font-family: "jura", sans-serif; font-weight: bold}
+.select-wrapper input.select-dropdown {font-size: 16px!important}
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {border-color: #f36a4a!important; background-color: #f36a4a!important;}
+.dropdown-content li>a, .dropdown-content li>span {color:#f36a4a!important}
