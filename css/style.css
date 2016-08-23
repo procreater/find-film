@@ -10,7 +10,7 @@ input[type="checkbox"].filled-in:checked + label:after{
      background-color: #f36a4a;
 }
 nav {background-color: #f36a4a!important} body {background-color: #95b8b2}
-.btn-large {background-color: #f36a4a!important}
+.btn-large {background-color: #f36a4a!important; width: 100%}
 h1 {
     font-family: 'Jura', sans-serif;
 	font-weight:bolder;

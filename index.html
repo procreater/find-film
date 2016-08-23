@@ -99,20 +99,20 @@
                     <h4>Yapım Yılı</h4>
                     <br>
                     <div class="box input-field">
-                        <select>
+                        <select name="film-date" id="film-date">
                             <option value="" disabled selected>Tarih Seçiniz</option>
-                            <option value="1">Full</option>
-                            <option value="2">1990+</option>
-                            <option value="3">2000+</option>
+                            <option value="full">Full</option>
+                            <option value="1">1990+</option>
+                            <option value="2">2000+</option>
                             <option value="3">2007+</option>
-                            <option value="3">2012+</option>
+                            <option value="4">2012+</option>
                         </select>
                     </div>
                     <br>
                     <h4>IMDB</h4>
                     <br>
                     <div class="box input-field">
-                       <select>
+                       <select name="imdb" id="imdb">
                             <option value="" disabled selected>Puan Seçiniz</option>
                             <option value="full">Full</option>
                             <option value="3">+3</option>
@@ -128,12 +128,12 @@
                     <br>
                     <div class="box">
                         <div>
-                            <input checked name="group1" type="radio" id="test12" />
-                            <label for="test12">Yabancı</label>
+                            <input checked name="origin" type="radio" id="foreign" />
+                            <label for="foreign">Yabancı</label>
                         </div>
                         <div>
-                            <input name="group1" type="radio" id="test13" />
-                            <label for="test13">Yerli</label>
+                            <input name="origin" type="radio" id="local" />
+                            <label for="local">Yerli</label>
                         </div>
                     </div>
                 </div>
