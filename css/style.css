@@ -94,3 +94,8 @@ a:hover {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 400px) {
+    .box {display: block}
+    .tur .box div {margin-left: 45px}
+}
